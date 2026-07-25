@@ -1,0 +1,41 @@
+# [Program] — [Report Title]
+
+**Link:** [Original Report]
+
+**Bounty:** $X,XXX | **Severity:** High
+
+**Type:** IDOR / Stored XSS / Business Logic
+
+## Executive Summary
+
+[2-3 sentences: Clear, high-level explanation of the vulnerability and its significance.]
+
+## Vulnerability Details & Root Cause
+
+[Technical breakdown: Why it existed, what was missing in code/logic.]
+
+## Hunter’s Approach
+
+[How the original researcher discovered it — tools, methodology, thinking process.]
+
+## My Alternative Approach
+
+[Specific steps I would have taken: recon, tools, payloads, Burp usage, etc.]
+
+## Impact Breakdown
+
+- Technical: [Exact capabilities]
+- Business: [Real consequences for the company]
+- Scope: [How many users affected]
+
+## Key Lessons & Patterns
+
+- Pattern 1: ...
+- Pattern 2: ...
+- Future Hunting Rule: ...
+
+## Personal Reflection
+
+[What surprised me, what I learned, how I’ll apply this.]
+
+**Tags:** #IDOR #AccessControl #H1
