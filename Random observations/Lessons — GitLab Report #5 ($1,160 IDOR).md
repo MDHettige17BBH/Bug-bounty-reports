@@ -1,4 +1,4 @@
-- > Rule: Impact is measured in real human damage, not technical cleverness.
+> Rule: Impact is measured in real human damage, not technical cleverness.
   
 - Including affected versions and tiers in Impact section adds professional context
 - Full raw HTTP request in steps = gold standard proof for API/GraphQL bugs
