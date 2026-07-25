@@ -1,41 +1,157 @@
-# [Program] — [Report Title]r
+# [Program] — [Report Title]
 
-**Link:** [Original Report]
+## Report Information
 
-**Bounty:** $X,XXX | **Severity:** High
+**Original Report:** [Link]
 
-**Type:** IDOR / Stored XSS / Business Logic
+**Platform:** HackerOne / Bugcrowd / Intigriti / Other
 
-## Executive Summary
+**Bounty:** $X,XXX  
+**Severity:** Critical / High / Medium / Low
 
-[2-3 sentences: Clear, high-level explanation of the vulnerability and its significance.]
+**Vulnerability Type:** IDOR / Stored XSS / Business Logic / etc.
 
-## Vulnerability Details & Root Cause
+**Tags:** #IDOR #AccessControl #H1
 
-[Technical breakdown: Why it existed, what was missing in code/logic.]
+---
 
-## Hunter’s Approach
+# Executive Summary
 
-[How the original researcher discovered it — tools, methodology, thinking process.]
+[2-3 sentences explaining:
+- What vulnerability was found
+- Who/what was affected
+- Why it was important]
+
+---
+
+# Vulnerability Overview
+
+## Vulnerability Details
+
+[Technical explanation of the vulnerability.]
+
+Include:
+- Where the issue existed
+- The vulnerable functionality
+- The attack flow
+- Required conditions
+
+---
+
+## Root Cause Analysis
+
+[Explaination why the vulnerability existed.]
+
+Examples:
+- Missing authorization checks
+- Improper input validation
+- Incorrect business logic implementation
+- Trusting client-side data
+- Missing ownership verification
+
+---
+
+# Hunter Analysis
+
+## Original Hunter's Approach
+
+[How the researcher discovered the vulnerability.]
+
+Document:
+- Recon approach
+- Testing methodology
+- Tools used
+- Interesting observations
+- Researcher's thought process
+
+---
 
 ## My Alternative Approach
 
-[Specific steps I would have taken: recon, tools, payloads, Burp usage, etc.]
+[How I would approach finding this vulnerability.]
 
-## Impact Breakdown
+Include:
 
-- Technical: [Exact capabilities]
-- Business: [Real consequences for the company]
-- Scope: [How many users affected]
+### Recon
+- What would I identify first?
+- What endpoints/features would I focus on?
 
-## Key Lessons & Patterns
+### Testing Strategy
+- What assumptions would I test?
+- What attack scenarios would I try?
 
-- Pattern 1: ...
-- Pattern 2: ...
-- Future Hunting Rule: ...
+### Tools
+- Burp Suite
+- Browser DevTools
+- Custom scripts
+- Other tools
 
-## Personal Reflection
+### Payloads / Requests
+[Important requests, parameters, or techniques.]
 
-[What surprised me, what I learned, how I’ll apply this.]
+---
 
-**Tags:** #IDOR #AccessControl #H1
+# Impact Analysis
+
+## Technical Impact
+
+[What an attacker could technically achievee.]
+
+Examples:
+- Access unauthorized data
+- Modify another user's resources
+- Execute actions without permission
+
+---
+
+## Business Impact
+
+[Real-world consequences for the organization.]
+
+Examples:
+- Data exposure
+- Account compromise
+- Loss of customer trust
+- Financial/reputation damage
+
+---
+
+## Scope & Severity
+
+[Estimate the affected area.]
+- Number of affected users
+- Required privileges
+- Attack complexity
+- Severity reasoning
+
+---
+
+# Key Lessons & Patterns
+
+## Vulnerability Patterns
+
+- Pattern 1:
+- Pattern 2:
+- Pattern 3:
+
+## Future Hunting Rules
+
+- 
+
+---
+
+# Personal Reflection
+
+[my personal notes.]
+- What surprised me?
+- What mistake did the developer make?
+- What did I learn?
+- How will I apply this during hunting?
+
+---
+
+# References
+
+- Original report:
+- Related OWASP category:
+- Related research/articles:
