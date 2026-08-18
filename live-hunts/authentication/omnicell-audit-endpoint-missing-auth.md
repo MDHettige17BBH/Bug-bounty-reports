@@ -1,4 +1,3 @@
-#my first ever program ever to hunt btw,
 ---
 program: Omnicell (HackerOne VDP)
 platform: HackerOne
@@ -10,6 +9,7 @@ report: https://hackerone.com/reports/3928161
 ---
 
 # Omnicell — Missing Authentication on `/api/Common/Audit`
+my first ever program ever to hunt btw,
 
 ## Scope and setup
 
