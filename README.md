@@ -1,41 +1,61 @@
-# Disclosed-reports-analysis
+# Bug-bounty-reports
 
-**17-year-old bug bounty hunter from Sri Lanka.** No mentor. No bootcamp.
+**17-year-old bug bounty hunter from Sri Lanka.** 
 Just public reports, PortSwigger labs, and 12-hour days.
 
 This repo is how I learn: I take disclosed reports, reverse-engineer the
 methodology, and write how *I* would have found each bug. Not summaries.
 Not copy-paste. My own recon, my own testing steps, my own mistakes.
+Real triage data is the closest thing to ground truth for pattern
+recognition.
 
-This is training. Real triage data is the closest thing to ground truth for pattern recognition.
+Real VDP/paid-program submissions live here too, in `live-hunts/`, once
+there's something to submit. Lab practice (PortSwigger, HTB) lives in a
+separate repo — [Bug-bounty-writeups](https://github.com/Malikdishan416/Bug-bounty-writeups).
 
-**Focus areas:** Access Control | Authentication | Business Logic | SSRF
+**Focus areas:** Access Control | Authentication | Business Logic
 
-**Progress** Reports analyzed: 18 / 100+ (2026 target)
+**Progress:** see [PROGRESS.md](./PROGRESS.md)
 
-| Report | Title | Vulnerability |
-| --- | --- | --- |
-| 318751c | Access to Private Photos of Apps in App section | IDOR |
-| 120121c | Delete any group of any organization remotely | Critical IDOR |
-| 642886c | Reauthentication for changing password bypass | Authentication bypass |
-| 3219944 | Scheduled data leak to other accounts By "projectID" | IDOR |
+## Structure
+
+```
+Bug-bounty-reports/
+├── README.md
+├── PROGRESS.md
+├── Disclosed reports-template.md
+├── live-hunts/                  ← my own real submissions
+│   ├── idor/
+│   ├── authentication/
+│   └── business-logic/
+├── disclosed-report-analysis/   ← other people's published reports, analyzed
+│   ├── idor/
+│   ├── authentication/
+│   └── business-logic/
+└── lessons-learned/             ← rejections, duplicates, N/A findings — failure analysis
+```
+
+## Pre-report research (before writing any analysis)
+
+1. Read the disclosed report (5 min).
+2. Open the program site, find the feature, Google the vulnerable
+   feature name.
+3. Look at public screenshots.
+4. Read the program's security page or API docs.
+5. Ask: what does a developer do there? (upload apps, add photos, set
+   pricing — whatever the feature actually does)
+6. Ask: where in that flow would an object reference (photo ID, org ID,
+   etc.) appear in a URL?
+
+Create a free account only when necessary, click around, look at URLs.
+Ten minutes of clicking teaches more than an hour of reading about the
+program.
 
 ## Contact
 
 - **HackerOne:** malikdishan17
-- **X/Twitter:** @MalikDisha8108
+- **X/Twitter:** [@MalikDisha8108](https://x.com/MalikDisha8108)
 - **Location:** Colombo, Sri Lanka
-- **Availability:** 24/7, full-time bug bounty hunter
-
-#### Pre-report **research**
-
-1.  Read the disclosed report (5 min)
-2. Open the program site and find features - Google the vulnerable feature name
-3. Look at public screenshots
-4. Read the program's security page or API docs
-5. What does a developer do there? (upload apps, add photos, set pricing)
-6. Where in that flow would a photo ID appear in a URL?
-
-Create a free account (only when necessary), click around, look at URLs. 10 minutes of clicking teaches you more than reading about the program site for an hour.
+- **Availability:** full-time bug bounty hunter
 
 Open to collaboration, mentorship, and program invitations.
