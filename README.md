@@ -1,7 +1,7 @@
 # Bug-bounty-reports
 
-**17-year-old bug bounty hunter from Sri Lanka.** 
-Just public reports, PortSwigger labs, and 12-hour days.
+**Self-taught Application Security Researcher from Sri Lanka.** No mentor.
+No bootcamp. Just public reports, PortSwigger labs, and 12-hour days.
 
 This repo is how I learn: I take disclosed reports, reverse-engineer the
 methodology, and write how *I* would have found each bug. Not summaries.
@@ -11,7 +11,7 @@ recognition.
 
 Real VDP/paid-program submissions live here too, in `live-hunts/`, once
 there's something to submit. Lab practice (PortSwigger, HTB) lives in a
-separate repo — [Bug-bounty-writeups](https://github.com/Malikdishan416/Bug-bounty-writeups).
+separate repo — [Bug-bounty-writeups](https://github.com/MDHettige17BBH/Bug-bounty-writeups).
 
 **Focus areas:** Access Control | Authentication | Business Logic
 
@@ -53,9 +53,12 @@ program.
 
 ## Contact
 
-- **HackerOne:** malikdishan17
 - **X/Twitter:** [@MalikDisha8108](https://x.com/MalikDisha8108)
+- **GitHub:** [@MDHettige17BBH](https://github.com/MDHettige17BBH)
+- **Medium:** [@MDHettige17BBH](https://medium.com/@MDHettige17BBH)
+- **HackerOne:** [malikdishan17](https://hackerone.com/malikdishan17)
+- **Discord:** lokimdmischef
+- **Email:** malikdishan09@gmail.com
 - **Location:** Colombo, Sri Lanka
-- **Availability:** full-time bug bounty hunter
 
 Open to collaboration, mentorship, and program invitations.
