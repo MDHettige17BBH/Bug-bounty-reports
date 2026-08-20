@@ -53,10 +53,9 @@ program.
 
 ## Contact
 
-- **X/Twitter:** [@MalikDisha8108](https://x.com/MalikDisha8108)
-- **GitHub:** [@MDHettige17BBH](https://github.com/MDHettige17BBH)
-- **Medium:** [@MDHettige17BBH](https://medium.com/@MDHettige17BBH)
-- **HackerOne:** [malikdishan17](https://hackerone.com/malikdishan17)
+- **X:** [Twitter - where I document the most](https://x.com/MalikHettige)
+- **Medium:** [Blog account](https://medium.com/@MalikHettige)
+- **HackerOne:** [malikdishan](https://hackerone.com/malikdishan)
 - **Discord:** lokimdmischef
 - **Email:** malikdishan09@gmail.com
 - **Location:** Colombo, Sri Lanka
